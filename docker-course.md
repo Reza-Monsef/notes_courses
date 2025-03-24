@@ -47,3 +47,7 @@ for see docker container logs you can run this command
 1 - docker logs containerID[0:3]<br />
 for example : containerID = cb2hx34pgn1 -> you must run this command :<br />
 docker logs cb2<br />
+
+### attach to container for see logs in start container
+
+command : docker container start --attach cb2
