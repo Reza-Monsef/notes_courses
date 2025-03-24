@@ -51,3 +51,8 @@ docker logs cb2<br />
 ### attach to container for see logs in start container
 
 command : docker container start --attach cb2
+
+## Docker run command
+
+docker run is a combined command -> docker run hello-world:linux
+docker run = docker container create + docker container start + docker container attach
