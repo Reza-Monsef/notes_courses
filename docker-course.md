@@ -44,6 +44,6 @@ if you got status Exited (0) that means container has problem and run container 
 
 for see docker container logs you can run this command
 
-1 - docker logs containerID[0:3]\n
-for example : containerID = cb2hx34pgn1 -> you must run this command :\n 
-docker logs cb2\n
+1 - docker logs containerID[0:3]__
+for example : containerID = cb2hx34pgn1 -> you must run this command :__
+docker logs cb2__
