@@ -7,7 +7,7 @@ USER root
 COPY ./entrypoint.bash /
 
 RUN apt update -y
-RUN apt install curl bash
+RUN apt install curl bash -y
 RUN chmod 755 ./entrypoint.bash
 
 USER nobody
