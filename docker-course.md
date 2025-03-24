@@ -39,3 +39,11 @@ if you got containerID that means container successfully started
 
 in command docker ps --all : 
 if you got status Exited (0) that means container has problem and run container failed
+
+### See container logs
+
+for see docker container logs you can run this command
+
+1 - docker container logs containerID[0:3]
+for example : containerID = cb2hx34pgn1 -> you must run this command : 
+docker container logs cb2
