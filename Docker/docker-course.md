@@ -56,3 +56,16 @@ command : docker container start --attach cb2
 
 docker run is a combined command -> docker run hello-world:linux
 docker run = docker container create + docker container start + docker container attach
+
+### Dockerfile
+### docker build
+
+### docker exec
+
+### docker run with port
+
+in docker you can bind a docker port to a port in your network host
+by example -> docker run -d --name our-webserver our-web-server
+you can bind web server port to your machine port by this command : 
+docker run -d --name our-webserver --port 8000:8000
+first 8000 is port of your machine and seccond is port in your container
